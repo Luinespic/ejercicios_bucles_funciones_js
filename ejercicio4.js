@@ -22,3 +22,8 @@ for (const cartoon of cartoons) {
   }
 }
 console.log(oldestMovie);
+
+// CON SORT:
+
+// cartoons.sort((a, b) => a.debut - b.debut);
+// console.log(cartoons[0]);
