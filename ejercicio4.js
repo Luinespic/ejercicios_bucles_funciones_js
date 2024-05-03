@@ -11,7 +11,6 @@ const cartoons = [
   { name: "Dexter's Laboratory", debut: 1996 },
 ];
 
-// Añade tu código de bucle aquí
 let oldestDebut = 10000;
 let oldestMovie = null;
 

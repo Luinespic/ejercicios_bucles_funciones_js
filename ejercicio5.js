@@ -11,7 +11,6 @@ const albums = [
   { title: "The Joshua Tree", genre: "Rock", duration: 50.11 },
 ];
 
-// Añade tu código de bucle aquí
 let totalDuration = null;
 for (const album of albums) {
   if (album.genre == "Rock") {

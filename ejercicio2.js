@@ -11,15 +11,13 @@ const movies = [
   { title: "Forrest Gump", releaseYear: 1994 },
 ];
 
-// Añade tu código de bucle aquí
 let moviesBefore2000 = null;
 let moviesAfter2000 = null;
 
 for (const movie of movies) {
   if (movie.releaseYear < 2000) {
-    moviesBefore2000 ++;
-  } else moviesAfter2000 ++;
+    moviesBefore2000++;
+  } else moviesAfter2000++;
 }
-console.log(moviesBefore2000);
-console.log(moviesAfter2000);
-
+console.log("Películas anteriores a los 2000: " + moviesBefore2000);
+console.log("Películas posteriores a los 2000: " + moviesAfter2000);

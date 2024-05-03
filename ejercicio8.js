@@ -18,7 +18,6 @@ const artists = [
   },
 ];
 
-// Añade tu código de bucle aquí
 for (const artist of artists) {
   console.log("Influencias de " + artist.name + ": " + artist.influences);
 }

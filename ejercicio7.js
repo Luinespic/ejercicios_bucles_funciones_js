@@ -11,7 +11,6 @@ const tracks = [
   { title: "Stairway to Heaven", genre: "Rock" },
 ];
 
-// Añade tu código de bucle aquí
 let orderedTracks = {};
 
 for (const track of tracks) {
